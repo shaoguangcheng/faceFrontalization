@@ -2,7 +2,7 @@
 To align a face in profile to front view.
 
 ##Usage
-frontalization <queryImage> <facialPointsFile> <3DModelFile>
+frontalization [queryImage] [facialPointsFile] [3DModelFile]
 
 ####Parameters
 frontalization : program name   
@@ -12,8 +12,8 @@ facialPointsFile : facial feature points detected by SDM
 
 ##Demo
 The left one is input image and the right one is output.
-<img src="pro/image.png" width="300" height="250">
-<img src="pro/frontal.png" width="180" height="180">
+<img src="pro/image.png" width="300" height="250" align="left">
+<img src="pro/frontal.png" width="180" height="180" align="right">
 
 ##Author
 Write by Shaoguang Cheng. 
