@@ -21,6 +21,6 @@ The left one is input image and the right one is output.
 
 
 ##Author
-Write by Shaoguang Cheng. 
-From Xi'an, China.
+Write by Shaoguang Cheng.   
+From Xi'an, China.   
 Email : chengshaoguang1291@126.com
