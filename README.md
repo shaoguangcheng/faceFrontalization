@@ -13,7 +13,7 @@ facialPointsFile : facial feature points detected by SDM
 ##Demo
 The left one is input image and the right one is output.
 <img src="pro/image.png" width="300" height="250" align="left">
-<img src="pro/frontal.png" width="180" height="180" align="right">
+<img src="pro/frontal.png" width="180" height="180" align="left">
 
 
 
