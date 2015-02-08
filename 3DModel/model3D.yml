@@ -1,7 +1,7 @@
 %YAML:1.0
 width:  320
 height: 320
-refUFile: "/home/shaoguangcheng/workshop/frontalization/frontalization/3DModel/refU.txt"
+refUFile: "/home/cheng/workshop/github/faceFrontalization/3DModel/refU.txt"
 refURows: 102400
 refUCols: 3
 refXY: !!opencv-matrix

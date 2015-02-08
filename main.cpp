@@ -6,8 +6,8 @@
 int main(int argc, char* argv[])
 {
 
-    if(argc != 5){
-        cout << "Usage: " << argv[0] << "<queryImage> <facialPointsFile> <cameraMatrixFile> <3DModelFile>" << endl;
+    if(argc != 4){
+        cout << "Usage: " << argv[0] << " <queryImage> <facialPointsFile> <3DModelFile>" << endl;
         return -1;
     }
 
@@ -18,7 +18,7 @@ int main(int argc, char* argv[])
 
     readFacialFeaturePointFromYML(string(argv[2]), facialFeaturePoints);
 //    readCameraMatrixFromYML(string(argv[3]), cameraMatrix);
-    read3DModelFromYML(string(argv[4]), model);
+    read3DModelFromYML(string(argv[3]), model);
 
     doCameraCalibration(model.threedee, facialFeaturePoints, model.sizeU, model.outA, cameraMatrix);
 
@@ -27,6 +27,9 @@ int main(int argc, char* argv[])
     imshow("image", image);
     imshow("frontal", frontalImage);
     waitKey();
+
+    imwrite("image.png", image);
+    imwrite("frontal.png", frontalImage);
 
     return 0;
 }
