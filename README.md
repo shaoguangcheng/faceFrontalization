@@ -19,7 +19,8 @@ The left one is input image and the right one is output.
 
 
 ##Reference
-
+"Effective Face Frontalization in Unconstrained Images"
+by Tal Hassner, Shai Harel, Eran Paz, Roee Enbar
 
 
 ##Author
