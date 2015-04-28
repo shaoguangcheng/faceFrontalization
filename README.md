@@ -1,5 +1,7 @@
 ##Face Frontalization
-To align a face in profile to front view.
+To align a face in profile to front view. This system is an implemetation of paper "Effective Face Frontalization in Unconstrained Images".
+
+Tal Hassner, Shai Harel, Eran Paz, Roee Enbar"
 
 ##Usage
 frontalization [queryImage] [facialPointsFile] [3DModelFile]
@@ -16,7 +18,7 @@ The left one is input image and the right one is output.
 ![p2](pro/frontal.png)
 
 
-
+##Reference
 
 
 
