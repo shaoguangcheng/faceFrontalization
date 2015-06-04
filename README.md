@@ -23,7 +23,9 @@ The left one is input image and the right one is output.
 by Tal Hassner, Shai Harel, Eran Paz, Roee Enbar
 
 
+<!--
 ##Author
 Write by Shaoguang Cheng.   
 From Xi'an, China.   
 Email : chengshaoguang1291@126.com
+-->
