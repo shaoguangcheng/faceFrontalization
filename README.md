@@ -6,7 +6,7 @@ Tal Hassner, Shai Harel, Eran Paz, Roee Enbar"
 ##Usage
 frontalization [queryImage] [facialPointsFile] [3DModelFile]
 
-(A demo : ./frontalization image.png ../data/facialFeaturePoint.yml  ../3DModel/model3D.yml Before running the code, you should modify the "refU.txt" path in 3DModel/model3D.yml according to the your settings. Otherwise, you will see "line: 73, file: ../frontalUtil.cpp, message: open /home/cheng/workshop/github/faceFrontalization/3DModel/refU.txt error")
+(A demo : ./frontalization image.png ../data/facialFeaturePoint.yml  ../3DModel/model3D.yml  Before running the code, you should modify the "refU.txt" path in 3DModel/model3D.yml according to your settings. Otherwise, you will see "line: 73, file: ../frontalUtil.cpp, message: open /home/cheng/workshop/github/faceFrontalization/3DModel/refU.txt error")
 
 ####Parameters
 frontalization : program name   
