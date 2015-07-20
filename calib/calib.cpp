@@ -262,7 +262,7 @@ void run(int width, int height, int numPoints, double *imgPointsIn, double *objP
 			transVects[i] = Tin[i];
 		}
 	}
-	double distortion[4];
+	double distortion[4] = {0, 0, 0, 0};
 
 	int calibFlags;
 
