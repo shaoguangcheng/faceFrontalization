@@ -49,8 +49,8 @@ void frontalizeWithoutSymmetry(const Mat &image,
 
         // if the projection point is out of plane, record it
         if(std::min(tmpProjectionPtr2[0], tmpProjectionPtr2[1]) < 1.0 ||
-                tmpProjectionPtr2[0] > queryWidth ||
-                tmpProjectionPtr2[1] > queryHeight)
+                tmpProjectionPtr2[0] > queryWidth-1 ||
+                tmpProjectionPtr2[1] > queryHeight-1)
             badPoint.insert(i);
     }
 
